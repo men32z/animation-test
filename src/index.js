@@ -1,12 +1,10 @@
-import woman from './images/woman.svg';
 import Vivus from 'vivus';
-let content = document.getElementById('content');
+import $ from 'jquery'
+import 'bootstrap'
 
-content.innerHTML = `
-<div>
-  ${woman}
-</div>
-`;
+import dom from './dom';
+
+dom.render();
 
 let womItems = document.querySelectorAll('#woman .cls-1');
 let viv = new Vivus('woman', {duration: 200}, () => {

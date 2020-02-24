@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 /* eslint-disable-next-line */
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -39,6 +40,12 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'style.css',
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      Popper: ['popper.js', 'default'],    
     }),
   ],
 };
