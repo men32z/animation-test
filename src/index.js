@@ -1,4 +1,6 @@
+/* eslint-disable-next-line */
 import Vivus from 'vivus';
+/* eslint-disable-next-line */
 import 'bootstrap';
 
 import dom from './dom';
