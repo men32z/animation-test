@@ -13,8 +13,8 @@ This is a small test required by Cycle Group, Images, SVG and content are proper
 ## Local Install
 
 ```sh
-git clone https://github.com/men32z/js-battleship/tree/battleship
-cd js-battleship
+git clone git@github.com:men32z/animation-test.git
+cd animation-test
 npm install
 npm run build
 ```
