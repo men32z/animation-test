@@ -21,6 +21,7 @@
   "homepage": "https://github.com/men32z/animation-test#readme",
   "devDependencies": {
     "css-loader": "^3.4.2",
+    "eslint-config-airbnb": "^18.0.1",
     "file-loader": "^5.1.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
@@ -33,6 +34,9 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",
     "vivus": "^0.4.5"

@@ -7,8 +7,8 @@ import words from './images/words.svg';
 import anchor from './images/anchor.svg';
 
 const dom = {
-  render(){
-    let content = document.getElementById('content');
+  render() {
+    const content = document.getElementById('content');
     content.innerHTML = `
     <div class="container-fluid header pt-sm-5">
       <nav class="container navbar navbar-dark navbar-expand-lg">
@@ -62,5 +62,5 @@ const dom = {
     </div>
     `;
   },
-}
+};
 export default dom;
