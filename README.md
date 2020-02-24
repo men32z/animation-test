@@ -4,11 +4,11 @@ This is a small test required by Cycle Group, Images, SVG and content are proper
 
 ## Live Version
 
-[here]()
+[here](https://raw.githack.com/men32z/animation-test/master/dist/index.html)
 
 ## Screenshots
-![Desktop](https://raw.githubusercontent.com/men32z/animation-test/development/docs/screenshot1.png)
-![Movile](https://raw.githubusercontent.com/men32z/animation-test/development/docs/screenshot2.png)
+![Desktop](https://raw.githubusercontent.com/men32z/animation-test/master/docs/screenshot1.png)
+![Movile](https://raw.githubusercontent.com/men32z/animation-test/master/docs/screenshot2.png)
 
 ## Local Install
 
