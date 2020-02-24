@@ -28,6 +28,13 @@
   }
 }
 
+#line {
+  path {
+    fill: transparent;
+    stroke: #6d2424;
+  }
+}
+
 .fill-color {
   fill: #6d2424 !important;
   transition: fill 0.4s;
@@ -68,16 +75,39 @@
   }
 }
 
+.ln-div {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width: 50%;
+  svg {
+    max-width: 780px;
+  }
+}
+
 .wd-div {
+  opacity: 0;
   position: absolute;
   top: 25%;
-  left: 10%;
+  left: 0;
   width: 80%;
   svg {
     max-width: 780px;
   }
   z-index: 1000;
 }
+
+.wd-show {
+  opacity: 1;
+  left: 10%;
+  transition: 1s;
+}
+
+.wd-text {
+  color: white;
+  font-size: 1em;
+}
+
 .wm-div {
   right: -100px;
   bottom: 0;
@@ -96,6 +126,9 @@
 @media (max-width: 992px) {
   .wm-div {
     right: 0;
+  }
+  .ln-div {
+    width: 80%;
   }
   .navbar-dark {
     .menu-links {

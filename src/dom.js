@@ -2,6 +2,7 @@ import logo from './images/logo.svg';
 import woman from './images/woman.svg';
 import comunication from './images/comunication.svg';
 import arrow from './images/arrow.svg';
+import line from './images/line.svg';
 import words from './images/words.svg';
 import anchor from './images/anchor.svg';
 
@@ -45,7 +46,14 @@ const dom = {
         <div class="row">
           <div class="col-sm-12 head-container">
             <div class="ar-div">${arrow}</div>
-            <div class="wd-div">${words}</div>
+            <div class="ln-div">${line}</div>
+            <div class="wd-div">
+              ${words}
+              <p class="wd-text">
+                By partenirng only with top wine and champagne companies that<br>
+                want to disrupt their niche and be a benchmark.
+              </p>
+            </div>
             <div class="wm-div">${woman}</div>
             <div class="cm-div">${comunication}</div>
           </div>
